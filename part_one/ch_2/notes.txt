@@ -1,0 +1,32 @@
+Q: What's the difference btw an interpreted and a compiled programming language?
+A: The key difference is when translation to machine code happens: a compiled language is translated before execution, creating a native executable that runs directly on the computer's hardware, while an interpreted language has a program called an interpreter that translates the code line-by-line during execution. 
+Compiled code generally runs faster but is platform-specific, whereas interpreted code is slower but more portable and allows for rapid development. 
+
+
+Q: What's a traceback?
+A: A traceback is a record of where the interpreter ran into trouble when trying to execute your code
+
+
+Variables are labels!, a variable references a certain value
+
+Strings
+A method is an action that is performed on a piece of data.
+
+Whitespaces refers to any nonprinting characters, such as spaces, tabs, and eol symbols.
+add a tab to text
+
+    \t tab
+    \n new line
+    \
+
+Removing prefixes
+    string_variable.removeprefix('https://')
+
+
+functions:
+    title() #capital letter on each word
+    upper()
+    lower() #used to convert the string to lowercase before storing it.
+    strip() #leaves the original string unchanged
+f"" is for format, because Python formats the string bt replacing the name of any variable in braces with its value
+

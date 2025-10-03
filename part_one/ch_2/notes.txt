@@ -30,3 +30,17 @@ functions:
     strip() #leaves the original string unchanged
 f"" is for format, because Python formats the string bt replacing the name of any variable in braces with its value
 
+about numbers
+    integers
+    floats
+    underscores in numbers (to make numbers more readable): Python ignores the uderscores when storing these kinds of values.
+        to Python, 1000 is the same as 1_000
+
+Multiple assigment
+    >>>x, y, z = 0, 0, 0 #initialize the variables x, y, and z to zero
+
+Constants
+    is a variable whose value stays the sme throughout the life of a program.
+    CAPITAL_LETTERS to indicate a variable should be treated as a constant and never be changed.
+
+    MAX_ATTEMPTS = 5

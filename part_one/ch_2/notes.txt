@@ -44,3 +44,11 @@ Constants
     CAPITAL_LETTERS to indicate a variable should be treated as a constant and never be changed.
 
     MAX_ATTEMPTS = 5
+
+3.
+List: collection of items in a particular order.
+    a list  can hold anything of data type
+    items can be unrelated among them.
+    naming list in plural
+
+    index postition start at 0, not 1

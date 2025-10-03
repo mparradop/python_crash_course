@@ -23,7 +23,8 @@ for operation in operators:
     
     output=0
     iterations =0
+for line in data:
+    print(line)
 
-print(data)
 
 

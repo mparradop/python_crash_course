@@ -75,4 +75,30 @@ List: collection of items in a particular order.
         list.reverse()
     finding the lenght of a list
         len(list)
-        
+
+4.
+Looping is important because it is one of the most common ways a computer automates repetitive tasks.
+
+count=0
+for eggs in basket: #it is helpful to choose a meaningful name that represents a single item from the list. Using singular an plural respectively, helps a lot
+    count=count +1
+print(f'There are {count} eggs in the basket')
+
+Indentation. Python uses indentation to determine how a line or group of lines, is related to the rest of the program.
+
+range() function. generate a series of numbers.
+off-by-one behavior -> start counting at the first value you give it, and it stops when it reaches the second value you provide.
+Because it stops at that second value, the output never contains the end value.
+
+for value in range(1,6):
+    print(value)
+##the output starts at 1 and ends at 5
+
+range(6) -> returns numbers 0 to 5
+
+numbers = list(range(1,6))
+
+range() can be used to skip numbers in a given range. If you pass a third argument to range(), python uses that value as a step size when gen numbers
+
+even_numbers = list(range(2,11,2))
+print(even_numbers)

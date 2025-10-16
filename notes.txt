@@ -1,0 +1,104 @@
+Q: What's the difference btw an interpreted and a compiled programming language?
+A: The key difference is when translation to machine code happens: a compiled language is translated before execution, creating a native executable that runs directly on the computer's hardware, while an interpreted language has a program called an interpreter that translates the code line-by-line during execution. 
+Compiled code generally runs faster but is platform-specific, whereas interpreted code is slower but more portable and allows for rapid development. 
+
+
+Q: What's a traceback?
+A: A traceback is a record of where the interpreter ran into trouble when trying to execute your code
+
+
+Variables are labels!, a variable references a certain value
+
+Strings
+A method is an action that is performed on a piece of data.
+
+Whitespaces refers to any nonprinting characters, such as spaces, tabs, and eol symbols.
+add a tab to text
+
+    \t tab
+    \n new line
+    \
+
+Removing prefixes
+    string_variable.removeprefix('https://')
+
+
+functions:
+    title() #capital letter on each word
+    upper()
+    lower() #used to convert the string to lowercase before storing it.
+    strip() #leaves the original string unchanged
+f"" is for format, because Python formats the string bt replacing the name of any variable in braces with its value
+
+about numbers
+    integers
+    floats
+    underscores in numbers (to make numbers more readable): Python ignores the uderscores when storing these kinds of values.
+        to Python, 1000 is the same as 1_000
+
+Multiple assigment
+    >>>x, y, z = 0, 0, 0 #initialize the variables x, y, and z to zero
+
+Constants
+    is a variable whose value stays the sme throughout the life of a program.
+    CAPITAL_LETTERS to indicate a variable should be treated as a constant and never be changed.
+
+    MAX_ATTEMPTS = 5
+
+3.
+List: collection of items in a particular order.
+    a list  can hold anything of data type
+    items can be unrelated among them.
+    naming list in plural
+
+    index postition start at 0, not 1
+
+    adding elements o a list.
+        append(), the element is added to the end of the list.
+    inserting elements into a list
+        insert(), 
+            specify the index of the new element and the value of the new item. 
+            The operation shifts every other value in the list one position to the right
+    removing elements from a list
+        del, you can remove an item from any position in a list if you know its index.
+        pop(), removes the last item in a list, but it lets you work with that item after removing it.
+            list as a stack of items and poping one item off the top of the stack
+        remove(), if you don't know the position but know the value, then use remove().
+            you can also work with a value that's being removed from a list, and it will be accessible through the variable
+            it deletes only the first occurence of the value you specify.
+    organizing a list
+        sort(), changges the order of the list permanently, alphabetic order and can never revert to the original order.
+        sort(reverse=True)
+        sorted(), lets you display your list in a particular order, but doesn't affect the actual order of the list.
+        sorted(reverse=True) display a list in reverse-alphabetic order
+    printing a list in reverse order
+        list.reverse()
+    finding the lenght of a list
+        len(list)
+
+4.
+Looping is important because it is one of the most common ways a computer automates repetitive tasks.
+
+count=0
+for eggs in basket: #it is helpful to choose a meaningful name that represents a single item from the list. Using singular an plural respectively, helps a lot
+    count=count +1
+print(f'There are {count} eggs in the basket')
+
+Indentation. Python uses indentation to determine how a line or group of lines, is related to the rest of the program.
+
+range() function. generate a series of numbers.
+off-by-one behavior -> start counting at the first value you give it, and it stops when it reaches the second value you provide.
+Because it stops at that second value, the output never contains the end value.
+
+for value in range(1,6):
+    print(value)
+##the output starts at 1 and ends at 5
+
+range(6) -> returns numbers 0 to 5
+
+numbers = list(range(1,6))
+
+range() can be used to skip numbers in a given range. If you pass a third argument to range(), python uses that value as a step size when gen numbers
+
+even_numbers = list(range(2,11,2))
+print(even_numbers)

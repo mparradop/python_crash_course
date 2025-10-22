@@ -46,7 +46,7 @@ Constants
     MAX_ATTEMPTS = 5
 
 3.
-List: collection of items in a particular order.
+List: collection of items in a particular order. Lists work well for storing collections of items that can change throughout the life of a program.
     a list  can hold anything of data type
     items can be unrelated among them.
     naming list in plural
@@ -102,3 +102,12 @@ range() can be used to skip numbers in a given range. If you pass a third argume
 
 even_numbers = list(range(2,11,2))
 print(even_numbers)
+
+## rememeber that the operator '//' provides an int result when dividing ##
+
+
+TUPLES
+
+Sometimes you want to create a list of items that cannot change. Tuples allow you to do just that. 
+A tuple lloks just like a list, except you use parentheses instead of square brackets. 
+Once you define a tuple, you can access individual elements by using each item's index, just as you would for a list.
